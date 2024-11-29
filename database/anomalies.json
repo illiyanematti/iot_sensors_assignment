@@ -1,1 +1,802 @@
-[]
+[
+    {
+        "sensor_id": "sensor_047",
+        "timestamp": "2023-11-07 05:39:00",
+        "anomaly_details": {
+            "reason": "Humidity reading missing",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_026",
+        "timestamp": "2023-11-06 20:57:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_044",
+        "timestamp": "2023-11-05 11:33:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_038",
+        "timestamp": "2023-11-04 00:56:00",
+        "anomaly_details": {
+            "reason": "Humidity too high",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_023",
+        "timestamp": "2023-11-07 16:04:00",
+        "anomaly_details": {
+            "reason": "Temperature above 50\u00b0C",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_007",
+        "timestamp": "2023-11-06 16:39:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_006",
+        "timestamp": "2023-11-07 04:31:00",
+        "anomaly_details": {
+            "reason": "Humidity reading missing",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_047",
+        "timestamp": "2023-11-04 10:56:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_039",
+        "timestamp": "2023-11-02 04:42:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_026",
+        "timestamp": "2023-11-03 20:14:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_013",
+        "timestamp": "2023-11-05 02:24:00",
+        "anomaly_details": {
+            "reason": "Humidity reading missing",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_042",
+        "timestamp": "2023-11-04 19:43:00",
+        "anomaly_details": {
+            "reason": "Temperature below 0\u00b0C",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_032",
+        "timestamp": "2023-11-04 08:26:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_027",
+        "timestamp": "2023-11-06 19:43:00",
+        "anomaly_details": {
+            "reason": "Humidity reading missing",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_007",
+        "timestamp": "2023-11-03 23:33:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_006",
+        "timestamp": "2023-11-05 12:43:00",
+        "anomaly_details": {
+            "reason": "Temperature below 0\u00b0C",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_003",
+        "timestamp": "2023-11-05 00:11:00",
+        "anomaly_details": {
+            "reason": "Humidity too high",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_033",
+        "timestamp": "2023-11-07 14:59:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_047",
+        "timestamp": "2023-11-05 04:33:00",
+        "anomaly_details": {
+            "reason": "Humidity too high",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_050",
+        "timestamp": "2023-11-03 00:52:00",
+        "anomaly_details": {
+            "reason": "Temperature below 0\u00b0C",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_021",
+        "timestamp": "2023-11-05 02:30:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_025",
+        "timestamp": "2023-11-05 04:09:00",
+        "anomaly_details": {
+            "reason": "Humidity too high",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_002",
+        "timestamp": "2023-11-08 07:26:00",
+        "anomaly_details": {
+            "reason": "Temperature below 0\u00b0C",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_041",
+        "timestamp": "2023-11-01 12:58:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_019",
+        "timestamp": "2023-11-06 09:44:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_004",
+        "timestamp": "2023-11-04 19:24:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_004",
+        "timestamp": "2023-11-01 20:51:00",
+        "anomaly_details": {
+            "reason": "Humidity too high",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_028",
+        "timestamp": "2023-11-01 21:32:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_006",
+        "timestamp": "2023-11-05 07:30:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_044",
+        "timestamp": "2023-11-07 00:31:00",
+        "anomaly_details": {
+            "reason": "Humidity reading missing",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_037",
+        "timestamp": "2023-11-04 12:12:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_040",
+        "timestamp": "2023-11-01 19:15:00",
+        "anomaly_details": {
+            "reason": "Temperature below 0\u00b0C",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_010",
+        "timestamp": "2023-11-05 04:25:00",
+        "anomaly_details": {
+            "reason": "Humidity too high",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_025",
+        "timestamp": "2023-11-07 14:22:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_041",
+        "timestamp": "2023-11-05 20:03:00",
+        "anomaly_details": {
+            "reason": "Humidity too high",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_037",
+        "timestamp": "2023-11-03 12:57:00",
+        "anomaly_details": {
+            "reason": "Humidity too high",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_046",
+        "timestamp": "2023-11-07 17:24:00",
+        "anomaly_details": {
+            "reason": "Temperature above 50\u00b0C",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_004",
+        "timestamp": "2023-11-05 08:23:00",
+        "anomaly_details": {
+            "reason": "Temperature below 0\u00b0C",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_008",
+        "timestamp": "2023-11-06 15:41:00",
+        "anomaly_details": {
+            "reason": "Humidity too high",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_044",
+        "timestamp": "2023-11-06 09:41:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_044",
+        "timestamp": "2023-11-08 08:07:00",
+        "anomaly_details": {
+            "reason": "Humidity too high",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_021",
+        "timestamp": "2023-11-04 13:24:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_001",
+        "timestamp": "2023-11-07 14:40:00",
+        "anomaly_details": {
+            "reason": "Temperature below 0\u00b0C",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_037",
+        "timestamp": "2023-11-05 00:54:00",
+        "anomaly_details": {
+            "reason": "Humidity reading missing",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_001",
+        "timestamp": "2023-11-01 21:09:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_041",
+        "timestamp": "2023-11-03 17:54:00",
+        "anomaly_details": {
+            "reason": "Humidity reading missing",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_003",
+        "timestamp": "2023-11-07 05:02:00",
+        "anomaly_details": {
+            "reason": "Temperature above 50\u00b0C",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_021",
+        "timestamp": "2023-11-04 15:36:00",
+        "anomaly_details": {
+            "reason": "Temperature above 50\u00b0C",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_040",
+        "timestamp": "2023-11-03 05:48:00",
+        "anomaly_details": {
+            "reason": "Humidity reading missing",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_020",
+        "timestamp": "2023-11-01 12:43:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_035",
+        "timestamp": "2023-11-01 13:07:00",
+        "anomaly_details": {
+            "reason": "Humidity too high",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_018",
+        "timestamp": "2023-11-04 17:17:00",
+        "anomaly_details": {
+            "reason": "Humidity reading missing",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_031",
+        "timestamp": "2023-11-04 16:18:00",
+        "anomaly_details": {
+            "reason": "Temperature above 50\u00b0C",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_026",
+        "timestamp": "2023-11-04 05:36:00",
+        "anomaly_details": {
+            "reason": "Humidity reading missing",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_050",
+        "timestamp": "2023-11-08 06:06:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_012",
+        "timestamp": "2023-11-07 16:08:00",
+        "anomaly_details": {
+            "reason": "Humidity too high",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_038",
+        "timestamp": "2023-11-04 11:22:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_036",
+        "timestamp": "2023-11-08 08:42:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_045",
+        "timestamp": "2023-11-05 08:02:00",
+        "anomaly_details": {
+            "reason": "Temperature below 0\u00b0C",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_008",
+        "timestamp": "2023-11-05 14:24:00",
+        "anomaly_details": {
+            "reason": "Temperature below 0\u00b0C",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_017",
+        "timestamp": "2023-11-06 02:02:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_045",
+        "timestamp": "2023-11-01 17:22:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_002",
+        "timestamp": "2023-11-04 21:37:00",
+        "anomaly_details": {
+            "reason": "Humidity reading missing",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_014",
+        "timestamp": "2023-11-02 11:31:00",
+        "anomaly_details": {
+            "reason": "Humidity too high",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_044",
+        "timestamp": "2023-11-08 05:10:00",
+        "anomaly_details": {
+            "reason": "Humidity too high",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_048",
+        "timestamp": "2023-11-01 16:23:00",
+        "anomaly_details": {
+            "reason": "Temperature below 0\u00b0C",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_022",
+        "timestamp": "2023-11-02 11:52:00",
+        "anomaly_details": {
+            "reason": "Humidity reading missing",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_042",
+        "timestamp": "2023-11-03 20:34:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_017",
+        "timestamp": "2023-11-07 19:59:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_049",
+        "timestamp": "2023-11-02 15:22:00",
+        "anomaly_details": {
+            "reason": "Humidity reading missing",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_047",
+        "timestamp": "2023-11-08 07:18:00",
+        "anomaly_details": {
+            "reason": "Humidity reading missing",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_019",
+        "timestamp": "2023-11-06 22:32:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_013",
+        "timestamp": "2023-11-07 03:27:00",
+        "anomaly_details": {
+            "reason": "Temperature below 0\u00b0C",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_026",
+        "timestamp": "2023-11-04 10:42:00",
+        "anomaly_details": {
+            "reason": "Humidity reading missing",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_014",
+        "timestamp": "2023-11-02 12:23:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_022",
+        "timestamp": "2023-11-08 05:04:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_025",
+        "timestamp": "2023-11-07 09:50:00",
+        "anomaly_details": {
+            "reason": "Humidity too high",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_019",
+        "timestamp": "2023-11-07 10:25:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_016",
+        "timestamp": "2023-11-01 13:31:00",
+        "anomaly_details": {
+            "reason": "Humidity reading missing",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_022",
+        "timestamp": "2023-11-03 01:22:00",
+        "anomaly_details": {
+            "reason": "Temperature below 0\u00b0C",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_041",
+        "timestamp": "2023-11-03 18:55:00",
+        "anomaly_details": {
+            "reason": "Humidity reading missing",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_033",
+        "timestamp": "2023-11-05 23:12:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_028",
+        "timestamp": "2023-11-05 00:07:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_023",
+        "timestamp": "2023-11-07 19:15:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_012",
+        "timestamp": "2023-11-07 06:20:00",
+        "anomaly_details": {
+            "reason": "Temperature above 50\u00b0C",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_024",
+        "timestamp": "2023-11-03 04:09:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_037",
+        "timestamp": "2023-11-08 00:45:00",
+        "anomaly_details": {
+            "reason": "Temperature above 50\u00b0C",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_025",
+        "timestamp": "2023-11-02 10:12:00",
+        "anomaly_details": {
+            "reason": "Temperature below 0\u00b0C",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_038",
+        "timestamp": "2023-11-05 22:19:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_035",
+        "timestamp": "2023-11-06 15:21:00",
+        "anomaly_details": {
+            "reason": "Temperature above 50\u00b0C",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_021",
+        "timestamp": "2023-11-03 03:24:00",
+        "anomaly_details": {
+            "reason": "Temperature above 50\u00b0C",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_020",
+        "timestamp": "2023-11-01 18:37:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_035",
+        "timestamp": "2023-11-06 08:51:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_040",
+        "timestamp": "2023-11-05 18:21:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_025",
+        "timestamp": "2023-11-03 11:37:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_008",
+        "timestamp": "2023-11-04 17:42:00",
+        "anomaly_details": {
+            "reason": "Temperature above 50\u00b0C",
+            "severity": "warning"
+        }
+    },
+    {
+        "sensor_id": "sensor_036",
+        "timestamp": "2023-11-03 11:31:00",
+        "anomaly_details": {
+            "reason": "Unexpected motion detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_005",
+        "timestamp": "2023-11-07 05:15:00",
+        "anomaly_details": {
+            "reason": "Unexpected light detected",
+            "severity": "info"
+        }
+    },
+    {
+        "sensor_id": "sensor_016",
+        "timestamp": "2023-11-06 19:48:00",
+        "anomaly_details": {
+            "reason": "Humidity too high",
+            "severity": "critical"
+        }
+    },
+    {
+        "sensor_id": "sensor_006",
+        "timestamp": "2023-11-05 09:01:00",
+        "anomaly_details": {
+            "reason": "Temperature below 0\u00b0C",
+            "severity": "critical"
+        }
+    }
+]
