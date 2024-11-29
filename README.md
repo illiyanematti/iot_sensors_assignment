@@ -80,6 +80,7 @@ The `anomalies.json` file stores an array of anomalies in JSON format. Each entr
 1. Prerequisites
    • Python 3.10+
    • PostgreSQL (v15)
+   • Docker (optional for containerization)
 
 2. Clone the Repository
    git clone https://github.com/illiyanematti/iot_sensors_assignment.git
@@ -131,4 +132,18 @@ The `anomalies.json` file stores an array of anomalies in JSON format. Each entr
 ## Testing
 
 Run tests using pytest:
-pytest test/
+pytest test/unit -v
+pytest test/integration -v
+
+## Docker
+
+1. Pull the Prebuilt Docker Image
+   docker pull ghcr.io/illiyanematti/iot_sensors_assignment:v1.0
+
+2. Run the Docker Container
+   docker run -p 8001:8001 ghcr.io/illiyanematti/iot_sensors_assignment:v1.0
+
+3. Connect the Container to Your PostgreSQL
+
+The container expects a PostgreSQL database to be available. You need to: 1. Ensure your PostgreSQL database is running and accessible. 2. Update database/config.py with the correct connection details before building the image. 3. Or, mount an updated config file during docker run:
+docker run -p 8001:8001 -v $(pwd)/database/config.py:/app/database/config.py ghcr.io/illiyanematti/iot_sensors_assignment:v1.0
