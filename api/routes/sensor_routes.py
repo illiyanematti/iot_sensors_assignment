@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-from app.sensor import add_sensor  # Business logic for adding sensor
+from app.sensor import add_sensor, get_all_sensors  # Business logic for adding / fetching sensor
 
 # Create a router instance
 router = APIRouter()
@@ -24,3 +24,14 @@ async def create_sensor(sensor: SensorRequest):
     if status_code == 400:
         raise HTTPException(status_code=400, detail=result["error"])
     return result
+
+@router.get("/sensors")
+async def get_sensors():
+    """
+    API endpoint to retrieve all sensors.
+    """
+    try:
+        sensors = get_all_sensors()
+        return {"sensors": sensors}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error retrieving sensors: {e}")

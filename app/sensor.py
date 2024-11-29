@@ -53,3 +53,27 @@ def add_sensor(sensor_id: str, sensor_type: str, location: str, attributes: dict
             cursor.close()
         if connection:
             connection.close()
+        
+def get_all_sensors():
+    """Retrieve all sensors from the database."""
+    connection = connect_to_db()
+    cursor = connection.cursor()
+
+    try:
+        cursor.execute("SELECT sensor_id, sensor_type, location, attributes FROM sensors")
+        sensors = cursor.fetchall()
+        return [
+            {
+                "sensor_id": sensor[0],
+                "sensor_type": sensor[1],
+                "location": sensor[2],
+                "attributes": sensor[3],
+            }
+            for sensor in sensors
+        ]
+    except Exception as e:
+        print(f"Error retrieving sensors: {e}")
+        return {"error": f"Error retrieving sensors: {e}"}
+    finally:
+        cursor.close()
+        connection.close()
