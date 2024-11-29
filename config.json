@@ -1,0 +1,9 @@
+{
+  "database": {
+    "dbname": "iot_sensors_project",
+    "user": "iotuser",
+    "password": "iotpass",
+    "host": "localhost",
+    "port": "5432"
+  }
+}
